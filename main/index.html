@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmo_Coders</title>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+    <link rel="stylesheet" href="./styles/models.css">
+    <link rel="stylesheet" href="./styles/thought.css">
+    <link rel="stylesheet" href="./styles/background.css">
+    <link rel="stylesheet" href="./styles/container_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <h1>MOONQUAKE MAP</h1>
+            <p>By Cosmo_Coders</p>
+        </div>
+        <div id="nav_links">
+            <a id="nav_link" href="#">Project</a>
+            <a id="nav_link" href="#">About</a>
+            <a id="nav_link" href="#">Our Team</a>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="main_box">
+            <div class="text_box">
+                <h3 class="thought">Click on the telescope</h3>
+                <p class="thought">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vitae nemo, vel quis ullam labore magni! Id reiciendis quas velit architecto laudantium distinctio, vitae at debitis perferendis, eveniet veritatis blanditiis maxime dignissimos aut, minus repellendus. Id ducimus incidunt, quidem sit itaque magni delectus nam nobis aliquam iste dolore, doloribus dicta?</p>
+            </div>
+            <div class="model">
+                <model-viewer id="telescope" src="./models/telescope_c/scene.gltf" ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="0.59" exposure="0.38" shadow-softness="0.76" camera-orbit="-48.87deg 91.52deg 542.1m" field-of-view="30deg"> </model-viewer>
+                <model-viewer id="stone" src="./models/sandstone__cliff/scene.gltf" ar ar-modes="webxr scene-viewer quick-look" shadow-intensity="2" exposure="0.2" shadow-softness="0.91" camera-orbit="443.9deg 73.81deg 9.742m" field-of-view="30deg"> </model-viewer>
+
+                
+                
+                
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
