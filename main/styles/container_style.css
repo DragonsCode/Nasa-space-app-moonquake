@@ -9,17 +9,10 @@
     width: 1550px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    width: 100%;
-    margin: 0 auto;
-    backdrop-filter: blur(5px);
-    position: fixed;
-    color: white;
-    z-index: 1;
+body {
+    font-family: 'Josefin Sans', sans-serif;
 }
+
 
 #logo {
     font-family: 'Josefin Sans', sans-serif;
@@ -33,15 +26,33 @@ nav {
     font-size: larger;
 }
 
-#nav_link {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
-
 #main_box {
     width:100%;
     padding-top: 100px;
     height: 690px;
 }
-  
+
+
+#project, #about, #ourteam {
+    margin: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.team {
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    width: 18rem;
+    display: inline-block;
+}
+
+.team img {
+    width: 50%;
+}
+
+.team .card-body {
+    text-align: left;
+}
